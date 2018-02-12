@@ -1,0 +1,24 @@
+#include<iostream>
+
+using namespace std;
+
+int main();
+{
+
+float Add=0;
+float Sub=0;
+float Div=0;
+float Prod=0;
+char choice;
+
+cout<<"t\t\t\Menu:"<<'\n';
+cout<<"t\t\t\t\(1) Addition"<<'\n';
+cout<<"t\t\t\t\(2) Subtraction"<<'\n';
+cout<<"t\t\t\t\(3) Division"<<'\n';
+cout<<"t\t\t\t\(4) Multiplication"<<'\n';
+cout<<'\n';
+cout<<"t\t\t\t\Input Choice:";
+cin>> choice;
+
+if (choice = 1){
+  cout<<
